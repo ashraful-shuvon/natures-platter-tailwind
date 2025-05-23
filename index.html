@@ -23,7 +23,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7190c9305b.js" crossorigin="anonymous"></script>
 
     <style>
         .font-poppins {
@@ -41,6 +42,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'clr-primary': '#179800',
                     },
                 },
             },
@@ -48,41 +50,68 @@
     </script>
 </head>
 
-<body>
+<body class="font-poppins">
     <!-- Header section -->
-    <header class="bg-gradient-to-t from-cyan-500 to-blue-500  border border-blue-300">
-        <nav class="container mx-auto">
-            <div class="navbar bg-base-100 shadow-sm">
-                <div class="navbar-start">
+    <header class="bg-gradient-to-t from-[#EFEBE3] via-[#EFEBE3] to-[#FFFFFF]">
+        <nav class="container mx-auto ">
+            <div class="navbar border-b border-clr-primary lg:border-none py-0">
+                <div class="navbar flex flex-row-reverse justify-between py-0">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                                stroke="green">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-28 p-2 shadow absolute right-0">
                             <li><a>Product</a></li>
-                            <li><a href=""> Services</a></li>
+                            <li><a href=""> Servicess</a></li>
                             <li><a>Contact us</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">daisyUI</a>
+                    <div class="flex items-center ">
+                        <a><img class=" h-8 lg:h-24 lg:py-6" src="./c2-assets/logo-header.png" alt=""></a>
+                    </div>
+
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                <div class="navbar hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 ">
                         <li><a>Product</a></li>
                         <li><a href=""> Services</a></li>
                         <li><a>Contact us</a></li>
                     </ul>
+
                 </div>
-                <div class="navbar-end">
-                    <a class="btn">Button</a>
+                <div class="hidden lg:block lg:flex items-center space-x-4 ">
+                    <div class="flex gap-3">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                    <div class="flex gap-2">
+                        <a class="btn border border-clr-primary py-2.5 px-7 rounded-lg">Login</a>
+                        <a class="btn bg-clr-primary py-2.5 px-7 rounded-lg text-white">Register</a>
+                    </div>
+
                 </div>
             </div>
         </nav>
+
+        <!-- Hero section -->
+        <div class="hero mt-12 lg:mt-24">
+            <div class="hero-content text-center">
+                <div class="max-w-screen-md">
+                    <h1 class="text-3xl lg:text-5xl font-semibold">Freshness <span class="text-clr-primary">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+                    <p class="py-8 text-base font-light lg:text-xl lg:font-normal">
+                        Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                    </p>
+                    <img class="w-full" src="./c2-assets/hero-vegetables.png" alt="vegetables">
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 
