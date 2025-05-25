@@ -166,16 +166,17 @@
         </section>
 
         <!-- popular products section -->
-        <section class="my-10 lg:my-36 bg-[#EFEBE3]">
+        <section class="mt-10 lg:my-36 bg-[#EFEBE3]">
             <div class="container mx-auto py-12 lg:py-36">
                 <h1 class="p-4 text-2xl lg:text-4xl font-semibold text-clr-primary"> Popular Products</h1>
                 <div class="flex relative flex-col lg:flex-row">
                     <!-- 30% off card -->
                     <div
-                        class=" card bg-gradient-to-br from-[#53DB3A] via-[#53DB3A] to-white m-4 w-[357px] h-[339px] lg:w-[424px] lg:h-[402px]">
+                        class=" card bg-gradient-to-br from-[#53DB3A] via-[#53DB3A] to-white m-4 h-[339px] lg:w-1/3  lg:h-[402px]">
                         <div class="card-body">
                             <h2 class="card-title text-2xl font-semibold lg:text-3xl text-white py-5">30% off</h2>
-                            <p class="text-sm font-normal lg:text-base">Discover a world of treats, toys, and essentials
+                            <p class="text-sm font-normal lg:text-base">Discover a world of treats, toys, and <br>
+                                essentials
                                 handpicked for </p>
                             <div class="absolute top-40 card-actions justify-start">
                                 <button class="btn text-base bg-white px-6 lg:px-8 lg:mt-5 rounded-lg">Buy Now</button>
@@ -188,20 +189,208 @@
                     </div>
 
                     <!-- price and rating section -->
-                    <div>
-                        <div class="">
-                            <div>
-                                <img src="./c2-assets/onion.png" alt="">
-                            </div>
-                            <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"
-                                        aria-label="2 star" checked="checked" />
-                                    <h5 class="font-medium text-xs">Onion</h5>
-                                </div>
 
+                    <!-- Card container -->
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mx-4 lg:w-2/3 lg:h-[402px] lg:pt-3 ">
+                        
+                        <!-- card 1-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-1"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- card 2-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-3"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-4"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 5-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-5"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 6-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-6"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 7-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-7"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 8-->
+                        <div class="bg-white rounded-lg">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-8"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 9-->
+                        <div class="bg-white rounded-lg hidden lg:block">
+                            <div class="p-3 lg:p-4 rounded-lg flex gap-3 lg:pt-5">
+                                <div class="bg-[#EFEBE3] rounded-lg w-14 lg:w-20 flex items-center justify-center">
+                                    <img class="items-center" src="./c2-assets/onion.png" alt="">
+                                </div>
+                                <div class="">
+                                    <div class=" space-y-1">
+                                        <div class="flex gap-2 justify-start items-center">
+                                            <div class="rating rating-xs">
+                                                <input type="radio" name="rating-9"
+                                                    class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                                                    checked="checked" />
+                                            </div>
+                                            <p class=" text-xs lg:text-base font-normal">4.5</p>
+                                        </div>
+                                        <h5 class="text-xs lg:text-xl font-medium">Onion 1 KG</h5>
+                                        <p class="font-medium text-xs lg:text-base">$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
