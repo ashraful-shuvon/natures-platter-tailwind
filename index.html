@@ -122,7 +122,7 @@
         <section class="container mx-auto my-10 lg:my-36">
             <h1 class="p-4 text-2xl lg:text-4xl font-semibold text-clr-primary"> Services</h1>
             <!-- card container -->
-            <div class="p-4 flex flex-col lg:flex-row gap-5">
+            <div class="p-4 flex flex-col lg:flex-row gap-5 items-center justify-center">
                 <div class="card bg-[#EFEBE3] w-full lg:w-[424px] items-center">
                     <div class="avatar mt-9">
                         <div class="w-24 lg:w-36 rounded-full bg-white">
@@ -191,8 +191,8 @@
                     <!-- price and rating section -->
 
                     <!-- Card container -->
-                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mx-4 lg:w-2/3 lg:h-[402px] lg:pt-3 ">
-                        
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mx-4 lg:w-2/3 lg:h-[402px] lg:my-4 ">
+
                         <!-- card 1-->
                         <div class="bg-white rounded-lg">
                             <div class="p-3 lg:p-4 rounded-lg flex gap-3">
@@ -390,9 +390,51 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Arrival & Offers section -->
+        <section class="my-12 container mx-auto">
+            <h1 class="p-4 text-2xl lg:text-4xl font-semibold text-clr-primary"> Arrival & Offers</h1>
+
+            <!-- Card container -->
+            <div class="m-4 flex flex-col gap-4 lg:flex-row">
+
+                <!-- card -->
+                <div class="card card-side bg-[#115414] rounded-lg pb-10 items-center lg:w-full">
+
+                    <div class="card-body space-y-1 relative lg:gap-7">
+                        <div class="w-28 lg:w-full"><img class="h-10 lg:h-20" src="./c2-assets/dawat-logo.png" alt=""></div>
+                        <div class="card-actions justify-start font-poppins text-white">
+                            <button class="btn btn-secondary bg-[#63B76D] px-6 lg:py-8 lg:px-10 text-xs lg:text-2xl rounded-xl">Cook Exotic Dishes</button>
+                        </div>
+                        <h2 class="card-title font-poppins text-white text-xl absolute w-full top-32 lg:top-56 lg:text-4xl">UP to <span class="font-bold">20% OFF</span></h2>
+                    </div>
+                    <figure class=" relative top-6">
+                        <img class="ml-12" src="./c2-assets/dawat-mock-up.png"
+                            alt="Rice" />
+                    </figure>
+                </div>
+                <!-- card -->
+                <div class="card card-side bg-[#102861] rounded-lg pb-10 lg:pb-12 items-center lg:w-4/6">
+
+                    <div class="card-body space-y-1 relative lg:gap-3">
+                        <div class="w-full"><img class=" w-16 h-16 lg:h-32 lg:w-24" src="./c2-assets/india-gate-logo.png" alt=""></div>
+                        <div class="card-actions justify-start font-poppins text-white">
+                            <button class="btn bg-[#2A4D97] px-7 lg:py-8 lg:px-8 text-xs lg:text-2xl rounded-xl">World’s No.1 Rice</button>
+                        </div>
+                        <h2 class="card-title font-poppins text-white text-xl absolute w-full top-38 lg:top-64 lg:text-4xl">UP to <span class="font-bold">20% OFF</span></h2>
+                    </div>
+                    <figure class=" relative top-6">
+                        <img class="h-40 w-32 mr-6 lg:h-72	lg:w-full" src="./c2-assets/india-gate-mock-up.png"
+                            alt="Rice" />
+                    </figure>
+                </div>
+
+
             </div>
         </section>
     </main>
